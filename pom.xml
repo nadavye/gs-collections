@@ -264,7 +264,7 @@
                         <includes>
                             <include>**/*Test.java</include>
                         </includes>
-                        <argLine>-XX:-OmitStackTraceInFastThrow</argLine>
+                        <argLine>${surefireArgLine} -XX:-OmitStackTraceInFastThrow</argLine>
                         <runOrder>random</runOrder>
                         <!--<forkMode>never</forkMode>-->
                     </configuration>
